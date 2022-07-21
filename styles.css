@@ -100,6 +100,7 @@
 {
     padding: 26px;
     min-width: 450px;
+    font-size: 20px;
 }
 .btn-3
 {
@@ -108,6 +109,12 @@
     min-width: 200px;
     background-color: #e50914;
     color: white;
+    font-size: 20px;
+}
+.btn-3:hover
+{
+    cursor: pointer;
+    background-color: #f40612;
 }
 .line
 {
@@ -250,7 +257,7 @@
 .column 
 {
     color:#737373;
-    height:250px;
+    height:200px;
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
@@ -328,7 +335,7 @@
     }
     .faq
     {
-        width: 90%;
+        width: 100%;
     }
     .column
     {
@@ -336,7 +343,7 @@
     }
 
 }
-@media screen and (max-width:496px)
+@media screen and (max-width:458px)
 {
     .nav_right
     {
@@ -355,4 +362,19 @@
     {
         padding: 2px 15px;
     }
+    .third, .fourth, .fifth , .sixth
+    {
+        flex-direction: column;
+    }
+    .third_left, .fourth_right, .fifth_left ,.sixth_right
+    {
+        width:90%;
+        text-align: center;
+    }
+    .third_right, .fourth_left, .fifth_right, .sixth_left
+    {
+        width: 70%;
+        text-align: center;
+    }
+
 }
