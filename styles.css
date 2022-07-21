@@ -53,11 +53,17 @@
 .sign_in_btn
 {
     background-color: #e50914;
-    color: white;
+    
     padding: 7px 17px;
-    font-size: 1rem;
+    
     font-weight: 400;
     line-height: normal;
+}
+.sign_in_btn a,.sign_in_btn a:visited
+{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
 }
 .second
 {
@@ -241,13 +247,22 @@
       justify-content:space-around;
       flex-wrap: wrap;
 }
-.column
+.column 
 {
     color:#737373;
     height:250px;
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
+}
+.column p a,.column p a:visited
+{
+    color:#737373;
+    text-decoration: none;
+}
+.column p a:hover
+{
+    text-decoration: underline;
 }
 
 
