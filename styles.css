@@ -334,4 +334,25 @@
     {
         width: 50%;
     }
+
+}
+@media screen and (max-width:496px)
+{
+    .nav_right
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav_left img
+    {
+        height: 55px;
+    }
+    .sign_in_btn
+    {
+        padding: 2px 15px;
+    }
+    .nav_right .l_selector
+    {
+        padding: 2px 15px;
+    }
 }
