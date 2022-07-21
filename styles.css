@@ -11,7 +11,7 @@
 {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8) ) ,url(/asset/Background.jpeg);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8) ) ,url(./asset/Background.jpeg);
 
 }
 .nav
@@ -46,6 +46,10 @@
     color: white;
     border: none;
 }
+.email
+{
+    text-align: center;
+}
 .sign_in_btn
 {
     background-color: #e50914;
@@ -57,7 +61,7 @@
 }
 .second
 {
-    margin-top: 155px;
+    margin-top: 110px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -84,6 +88,7 @@
     color: white;
     padding-bottom: 20px;
     padding-bottom: 20px;
+    text-align: center;
 }
 .input
 {
@@ -134,10 +139,18 @@
 {
     width: 100%;
 }
+.main_faq
+{
+        font-size: 3.125rem;
+        color: white;
+        line-height: 1.1;
+        margin-bottom: 30px;
+        text-align: center;
+}
 .faq
 {
     background-color: black;
-    width: 60%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -251,4 +264,59 @@
 .footer_end
 {
     margin-top: 24px;
+}
+
+
+@media screen and (max-width:787px) {
+    
+    .second
+    {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:496px) {
+    .nav_left img 
+    {
+        height: 45px;
+    }
+    .second
+    {
+        padding: 25px;
+        margin-top: 0px;
+    }
+    .main
+    {
+        font-size: 2rem;
+    }
+    .main_2{
+        font-size: 1.2rem;
+    }
+    .main_3
+    {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .input {
+        padding: 10px;
+        min-width: 200px;
+    }
+    .btn-3 {
+        padding: 10px;
+        min-height: 0px;
+        min-width: 150px;
+    }
+    .title
+    {
+        font-size: 1.2rem;
+        padding: 10px 15px;
+    }
+    .faq
+    {
+        width: 90%;
+    }
+    .column
+    {
+        width: 50%;
+    }
 }
