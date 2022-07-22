@@ -27,7 +27,8 @@ This project is to showcase my own skills.
 
 ## Project Structure
 
-![flow](https://user-images.githubusercontent.com/108210905/177208843-40f22daf-d29d-4447-8d00-bf92cf413162.png)
+![Screenshot 2022-07-22 074041](https://user-images.githubusercontent.com/108210905/180347993-4143201e-948b-473c-96e1-e4b5842c4a81.jpg)
+
 
 ## Getting Started with the App
 
